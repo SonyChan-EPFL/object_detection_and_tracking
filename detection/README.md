@@ -3,7 +3,7 @@
 ```
     ├── README.md
     ├── darknet            : Implementation of yolo in C++ (For training the model)
-    ├── yolov3             : Implementation of yolo in PyTorch 0.41 (For inferring the images)
+    ├── yolov3             : Implementation of yolo in PyTorch 0.41 (For inferring the images)
     └── download_files.sh  : Script to download the trained weights, example images and  dataset to train the model
 ```
 
@@ -15,7 +15,6 @@ To train the model from scratch, please follow the following steps or use traine
 
 The aerail_dataset (about 7GB) to train the model is available [here](https://drive.google.com/open?id=1rUcUKc8Vgs8wERgDnG1FfHHDl8Q7hu-I).
 
-The trained model is available [here]().
 
 ## 1. Download files
 Run `download_files.sh`. It will automatically download the trained weights, example images and  dataset to train the model and put them into corresponding directories.

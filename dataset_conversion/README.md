@@ -1,7 +1,7 @@
 # Dataset Conversion
 ```
     ├── README.md                         
-    └── dataset_conversion.ipynb  : Notebook for creating aerail_dataset (Version2)
+    └── dataset_conversion.ipynb  : Notebook for creating aerail_dataset (Version2)
 ```
 # Introduction 
 **dataset_conversion.ipynb** contains the preprocessing code that coverts the annotations of other datasets into yolo annotation.

@@ -3,9 +3,9 @@
     ├── README.md                         
     ├── homography_transform.ipynb          : Compute the homography matrix for each scene
     ├── img_coordinates.json                : Metadata of homography transformation
-    ├── google_images/                      : Contains google map screenshot of each scene
+    ├── google_images/                      : Contains google map screenshot of each scene
     ├── video_images/                       : Contains first frame image of each video
-    ├── homography_images/                  : Output folder of homography mapping images 
+    ├── homography_images/                  : Output folder of homography mapping images 
     └── homography_matrix/                  : Output folder of homography matrix
 ```
 
