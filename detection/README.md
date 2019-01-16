@@ -48,7 +48,8 @@ In this part I used [pytorch-0.4-yolov3 : Yet Another Implimentation of Pytroch 
 ```
 $ python detect.py  yolo_cfg/topview-6-predict.cfg  weights/topview-final-6.weights data/example.jpg yolo_cfg/topview-6.names  
 ```
- 
+
+
 
 ### For multiple images, run `batch_detect.py`
 

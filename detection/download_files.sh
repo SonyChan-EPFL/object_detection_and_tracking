@@ -26,8 +26,10 @@ tar -zxf $dataset_name
 
 echo "Moving files to corresponding directories...."
 folder="object_detection"
-mv aerial_dataset/ darknet/
+mv aerial_dataset/ darknet/aerial_dataset/
 mv ${folder}/data/ yolov3/data/
+rm -rf yolov3/weights yolov3/yolo_cfg yolov3/data
+rm -rf darknet/weights darknet/yolo_cfg darknet/aerial_dataset
 cp -R ${folder}/weights yolov3/
 cp -R ${folder}/yolo_cfg yolov3/
 cp -R ${folder}/weights darknet/
