@@ -1,15 +1,12 @@
 import sys
 import time
 from PIL import Image, ImageDraw
-# import cv2
 import os
 import argparse
 
 from utils import *
 from image import letterbox_image, correct_yolo_boxes
 from darknet import Darknet
-from resize import img_to_32_multiplier
-
 
 
 namesfile=None

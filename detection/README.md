@@ -46,7 +46,7 @@ In this part I used [pytorch-0.4-yolov3 : Yet Another Implimentation of Pytroch 
 
 **Example:**
 ```
-$ python detect.py  yolo_cfg/topview-6_predict.cfg data/example.jpg yolo_cfg/topview-6.names  
+$ python detect.py  yolo_cfg/topview-6-predict.cfg  weights/topview-final-6.weights data/example.jpg yolo_cfg/topview-6.names  
 ```
  
 
@@ -77,7 +77,7 @@ optional arguments:
 **Example**
 ```
 $ python batch_detect.py -w weights/topview-final-6.weights \
-        -c yolo_cfg/topview-6_predict.cfg \
+        -c yolo_cfg/topview-6-predict.cfg \
         -n yolo_cfg/topview-6.names \
         -sp data/frames \
         -op data/frames_pred \
